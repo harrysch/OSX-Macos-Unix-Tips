@@ -24,7 +24,7 @@ Terminal:
 or use the 
 
 #### Bar toggle für hidden files
-Show always hidden files
+
 Press ```Command+Shift+Dot```
 
 ### FUSE
