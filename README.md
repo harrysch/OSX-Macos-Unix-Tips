@@ -13,8 +13,18 @@ With the new macos 15 you will get "tiling windows" - or use "hammerspoon" https
 
 
 ---
+## OSX, Macos Things:
 
-## TextEdit, Pages Convert all RTF and RTFD files to Word DOCX via AppleScript
+
+## Mac-Shell-Script
+
+Double click the script and it will be executed
+add ".command" to shell-script
+```.command```
+
+
+
+### TextEdit, Pages Convert all RTF and RTFD files to Word DOCX via AppleScript
 
 "We do this with Pages because it's the only thing that can correctly convert rtfd. textutil works on rtf files with no text in them but not on rtfd."
 
