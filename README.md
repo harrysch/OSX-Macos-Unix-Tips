@@ -1,9 +1,21 @@
 # OSX-Macos-Unix-Tips
 
 
-# OSX, Macos
+## OSX, Macos
 
 
+## Homebrew
+Give me real unix things, give all, give me more!
+
+The Missing Package Manager for macOS (or Linux)
+https://brew.sh/
+
+
+## Tiling Windows
+With the new macos 15 you will get "tiling windows" - or use "hammerspoon" https://github.com/Hammerspoon/hammerspoon and "hs.tiling" from https://github.com/dsanson/hs.tiling
+
+
+---
 
 ## Apps
 
@@ -34,8 +46,7 @@ Staggeringly powerful macOS desktop automation with Lua
 "hammerspoon" https://github.com/Hammerspoon/hammerspoon
 
 
-## Tiling Windows
-With the new macos 15 you will get "tiling windows" - or use "hammerspoon" https://github.com/Hammerspoon/hammerspoon and "hs.tiling" from https://github.com/dsanson/hs.tiling
+
 
 
 
