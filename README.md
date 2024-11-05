@@ -38,6 +38,29 @@ add ".command" to shell-script
 ```.command```
 
 
+### Spotlight, mdfind
+
+
+```
+mdfind -name
+
+mdls Datei.txt -name kMDItemFinderComment
+
+mdfind -onlyin /Users/fred/tmp/ -onlyin /Users/fred/tmp2/ searchword
+
+mdfind "searchword searchword2"
+
+# oder ohne
+mdfind "berry_tea OR peppermint_tea -chamomile_tea"
+
+
+# restart
+sudo mdutil -E -i on
+
+
+mdimport -i /Volumes/music/
+```
+
 
 ### TextEdit, Pages Convert all RTF and RTFD files to Word DOCX via AppleScript
 
