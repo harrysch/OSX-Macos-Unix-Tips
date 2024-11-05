@@ -110,6 +110,8 @@ Powerful browser picker
 Open links in a specific browser or a matching native app. Easily switch between browsers.
 https://sindresorhus.com/velja
 
+or with terminal:
+```http://apple.stackexchange.com öffnen -a Firefox.app```
 
 ## Desktop Automation
 Staggeringly powerful macOS desktop automation with Lua 
