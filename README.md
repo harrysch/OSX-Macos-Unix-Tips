@@ -16,7 +16,22 @@ With the new macos 15 you will get "tiling windows" - or use "hammerspoon" https
 ## OSX, Macos Things:
 
 
-## Mac-Shell-Script
+### Hidden Files
+To show always hidden files in finder.
+Terminal:
+```defaults write com.apple.finder AppleShowAllFiles true;```
+
+or use the 
+
+#### Bar toggle für hidden files
+Show always hidden files
+Press ```Command+Shift+Dot```
+
+### FUSE
+macFUSE is a software package for macOS that lets non-privileged users create their own file systems without having to write a single line of kernel code. 
+https://github.com/macfuse/macfuse
+
+### Shell-Script
 
 Double click the script and it will be executed
 add ".command" to shell-script
