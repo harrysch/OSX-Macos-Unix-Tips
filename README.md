@@ -1,9 +1,6 @@
 # OSX-Macos-Unix-Tips
 
 
-## OSX, Macos
-
-
 ## Homebrew
 Give me real unix things, give all, give me more!
 
@@ -14,6 +11,31 @@ https://brew.sh/
 ## Tiling Windows
 With the new macos 15 you will get "tiling windows" - or use "hammerspoon" https://github.com/Hammerspoon/hammerspoon and "hs.tiling" from https://github.com/dsanson/hs.tiling
 
+
+---
+
+## TextEdit, Pages Convert all RTF and RTFD files to Word DOCX via AppleScript
+
+"We do this with Pages because it's the only thing that can correctly convert rtfd. textutil works on rtf files with no text in them but not on rtfd."
+
+https://gist.github.com/dpinney
+
+https://gist.github.com/dpinney/f5de675274c9f1ad16df6794d614dea8
+
+'''
+set my_paths to {"/path/to/first/file.rtfd", "/path/to/second/file.rtfd"}
+
+repeat with my_path in my_paths
+	tell application "Pages"
+		set my_file to (my_path as POSIX file)
+		set my_name to name of (info for my_file)
+		set doc to open my_file
+		export doc as Microsoft Word to alias (my_path & ".docx" as POSIX file)
+		close doc
+		tell application "Finder" to delete my_file
+	end tell
+end repeat
+'''
 
 ---
 
