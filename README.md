@@ -39,7 +39,7 @@ add ".command" to shell-script
 
 
 ### Spotlight, mdfind
-
+find files without finder: fff
 
 ```
 mdfind -name
