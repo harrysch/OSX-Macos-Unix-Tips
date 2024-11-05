@@ -70,20 +70,6 @@ https://gist.github.com/dpinney
 
 https://gist.github.com/dpinney/f5de675274c9f1ad16df6794d614dea8
 
-```applescript
-set my_paths to {"/path/to/first/file.rtfd", "/path/to/second/file.rtfd"}
-
-repeat with my_path in my_paths
-	tell application "Pages"
-		set my_file to (my_path as POSIX file)
-		set my_name to name of (info for my_file)
-		set doc to open my_file
-		export doc as Microsoft Word to alias (my_path & ".docx" as POSIX file)
-		close doc
-		tell application "Finder" to delete my_file
-	end tell
-end repeat
-```
 
 ---
 
