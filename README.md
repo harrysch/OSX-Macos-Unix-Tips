@@ -111,6 +111,7 @@ Open links in a specific browser or a matching native app. Easily switch between
 https://sindresorhus.com/velja
 
 or with terminal:
+
 ```http://apple.stackexchange.com öffnen -a Firefox.app```
 
 ## Desktop Automation
