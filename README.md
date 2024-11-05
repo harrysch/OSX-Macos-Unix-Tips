@@ -22,7 +22,7 @@ https://gist.github.com/dpinney
 
 https://gist.github.com/dpinney/f5de675274c9f1ad16df6794d614dea8
 
-'''
+´´´
 set my_paths to {"/path/to/first/file.rtfd", "/path/to/second/file.rtfd"}
 
 repeat with my_path in my_paths
@@ -35,7 +35,7 @@ repeat with my_path in my_paths
 		tell application "Finder" to delete my_file
 	end tell
 end repeat
-'''
+´´´
 
 ---
 
